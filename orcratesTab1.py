@@ -9,7 +9,7 @@ def formUI():
     col1, col2 = st.columns(2)
 
     with col1:
-        with st.container():
+        with st.container(border=True):
             # Initialize probabilities if not set
             if "rarity_probabilities" not in st.session_state:
                 st.session_state["rarity_probabilities"] = {
@@ -50,13 +50,13 @@ def formUI():
 
     # Select crate type
     with col2:
-        with st.container():
+        with st.container(border=True):
             # Allow users to adjust finish chance
             if "finish_chance" not in st.session_state:
                 st.session_state["finish_chance"] = 0.01
             st.session_state["finish_chance"] = st.slider("Finish Chance", min_value=0.0, max_value=1.0, value=st.session_state["finish_chance"], step=0.01)
 
-        with st.container():
+        with st.container(border=True):
             if "crate_type" not in st.session_state:
                 st.session_state["crate_type"] = list(crates.keys())[0]  # Default to the first crate
             st.session_state["crate_type"] = st.selectbox("Select a crate to open:", list(crates.keys()), index=list(crates.keys()).index(st.session_state["crate_type"]))
