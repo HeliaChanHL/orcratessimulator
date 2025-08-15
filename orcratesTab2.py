@@ -44,7 +44,7 @@ def display():
         # Check if the item name contains any of the finish names
         for finish in finishes:
             if val.startswith(finish):  # Check if the value starts with a finish name
-                return f'background-color: {finishes[finish]}; color: #D4AAFF;font-weight: bold;'
+                return f'background-color: {finishes[finish]}; color: white;font-weight: bold;'
         
         # Match the display name with the corresponding item rarity
         for item in items_with_rarity:
@@ -98,4 +98,5 @@ def display():
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
 
         st.dataframe(crate_df)
+
 
