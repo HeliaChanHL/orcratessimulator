@@ -4,17 +4,27 @@ import pandas as pd
 def modalContent():
     st.markdown(modalText)
 def formUI():
-    
     # Allow users to adjust rarity probabilities
     st.subheader("Adjust Rarity Probabilities")
-    col1,col2=st.columns(2)
+    col1, col2 = st.columns(2)
+
     with col1:
-        with st.container(border=True):
+        with st.container():
+            # Initialize probabilities if not set
+            if "rarity_probabilities" not in st.session_state:
+                st.session_state["rarity_probabilities"] = {
+                    "Legendary": 0.10,
+                    "Epic": 0.15,
+                    "Rare": 0.25,
+                    "Common": 0.50
+                }
+
+            # Adjust sliders using existing session state values
             rarity_probabilities = {
-                "Legendary": st.slider("Legendary Probability", min_value=0.0, max_value=1.0, value=0.10, step=0.01),
-                "Epic": st.slider("Epic Probability", min_value=0.0, max_value=1.0, value=0.15, step=0.01),
-                "Rare": st.slider("Rare Probability", min_value=0.0, max_value=1.0, value=0.25, step=0.01),
-                "Common": st.slider("Common Probability", min_value=0.0, max_value=1.0, value=0.50, step=0.01)
+                "Legendary": st.slider("Legendary Probability", min_value=0.0, max_value=1.0, value=st.session_state["rarity_probabilities"]["Legendary"], step=0.01),
+                "Epic": st.slider("Epic Probability", min_value=0.0, max_value=1.0, value=st.session_state["rarity_probabilities"]["Epic"], step=0.01),
+                "Rare": st.slider("Rare Probability", min_value=0.0, max_value=1.0, value=st.session_state["rarity_probabilities"]["Rare"], step=0.01),
+                "Common": st.slider("Common Probability", min_value=0.0, max_value=1.0, value=st.session_state["rarity_probabilities"]["Common"], step=0.01)
             }
 
             # Normalize the probabilities to ensure they sum to 1
@@ -35,18 +45,25 @@ def formUI():
             crates[crate_name] = Crate(crate_name)
 
         crates[crate_name].add_item(item)
-    
-    st.session_state["crates"]=crates
+
+    st.session_state["crates"] = crates
 
     # Select crate type
     with col2:
-        with st.container(border=True):
+        with st.container():
             # Allow users to adjust finish chance
-            st.session_state["finish_chance"] = st.slider("Finish Chance", min_value=0.0, max_value=1.0, value=0.01, step=0.01)
-        with st.container(border=True):
-            st.session_state["crate_type"] = st.selectbox("Select a crate to open:", list(crates.keys()))
-            st.session_state["num_crates"] = st.number_input(f"Number of crates to open:", min_value=1, value=1)
-       
+            if "finish_chance" not in st.session_state:
+                st.session_state["finish_chance"] = 0.01
+            st.session_state["finish_chance"] = st.slider("Finish Chance", min_value=0.0, max_value=1.0, value=st.session_state["finish_chance"], step=0.01)
+
+        with st.container():
+            if "crate_type" not in st.session_state:
+                st.session_state["crate_type"] = list(crates.keys())[0]  # Default to the first crate
+            st.session_state["crate_type"] = st.selectbox("Select a crate to open:", list(crates.keys()), index=list(crates.keys()).index(st.session_state["crate_type"]))
+
+            if "num_crates" not in st.session_state:
+                st.session_state["num_crates"] = 1
+            st.session_state["num_crates"] = st.number_input("Number of crates to open:", min_value=1, value=st.session_state["num_crates"])
 
     # Counter for OR-Bucks and crates opened
     if 'crates_opened' not in st.session_state:
@@ -75,8 +92,9 @@ def formUI():
     # Crate counts
     if 'crate_counts' not in st.session_state:
         st.session_state['crate_counts'] = {crate: 0 for crate in crates.keys()}
-    st.button("Roll Crates",use_container_width=True,on_click=submit)
+
+    st.button("Roll Crates", use_container_width=True, on_click=submit)
 
 def submit():
-    st.session_state.calc=False
-    st.session_state.buttonDis=False
+    st.session_state.calc = False
+    st.session_state.buttonDis = False
