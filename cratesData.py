@@ -18,7 +18,6 @@ rarity_color_map = {
     "Epic": "#895bf3",
     "Legendary": "#f19c0b"
 }
-modalText="hi"
 
 # Crate and Item Classes
 class Item:
@@ -73,3 +72,35 @@ class Crate:
             if roll < cumulative_probability:
                 return rarity
         return "Common"  # Default to Common if no other match
+
+modalText="""
+## 1. Adjust Rarity Probabilities
+Controls the likelihood of obtaining items of different rarities.
+Use the sliders to set the probabilities for each rarity:
+- Legendary: 5% (default)
+- Epic: 13% (default)
+- Rare: 27% (default)
+- Common: 55% (default)
+The total of all probabilities will automatically normalize to 100%.
+## 2. Select Crate Type
+From the dropdown menu, choose the crate you want to open. The first crate is selected by default.
+## 3. Set Finish Chance
+Adjust the chance of receiving a "finish" item when opening a crate. 
+Use the slider to set a value between 0.0 and 1.0 (default is 1%).
+## 4. Specify Number of Crates to Open
+Use the number input to select how many crates you want to open at once (minimum of 1).
+## 5. Display Odds
+Choose whether to display the odds of getting each rarity by default.
+Use the dropdown menu to select either True (show odds) or False (hide odds).
+## 6. Roll Crates
+Click the "Roll Crates" button to simulate opening the selected number of crates.
+
+---
+
+## 7. Track Your Progress
+The simulator will process your selections and display the results, including the items you received and their rarities.
+The simulator keeps track of:
+- Total crates opened.
+- OR-Bucks spent.
+- Counts of each rarity and item type received.
+- Counts of how many times each crate has been opened."""

@@ -2,6 +2,7 @@ import streamlit as st
 from cratesData import *
 import pandas as pd
 def modalContent():
+    st.link_button("👑 Visit ORFinishes for Item Checklists! 👑","https://orfinishes.com",use_container_width=True)
     st.markdown(modalText)
 def formUI():
     # Allow users to adjust rarity probabilities
@@ -69,7 +70,6 @@ def formUI():
             if "show_odds" not in st.session_state:
                 st.session_state["show_odds"] = True
             st.session_state["show_odds"] = st.selectbox("Display Odds by default:",[True,False],index=[True,False].index(st.session_state["show_odds"]))
-            st.write("")
     # Counter for OR-Bucks and crates opened
     if 'crates_opened' not in st.session_state:
         st.session_state['crates_opened'] = 0
