@@ -15,7 +15,7 @@ Animal,Parrot Balloon,Epic,Cosmetic
 Animal,Giraffe Helmet,Epic,Cosmetic
 Animal,Snake Balloon,Epic,Cosmetic
 Animal,Elephant Inflatable,Legendary,Furniture
-Animal,Snake Balloon a.f,Epic,Cosmetic
+Animal,Snake Balloon,Epic,Cosmetic
 Aquatic,Random Pirate Tool,Common,Tool
 Aquatic,Harpoon Bow,Common,Tool
 Aquatic,Inky,Common,Furniture
@@ -248,7 +248,7 @@ Floral,Ladybug Wings,Common,Cosmetic
 Floral,Caterpillar Balloon,Rare,Cosmetic
 Floral,Butterfly Wings,Rare,Cosmetic
 Floral,Bloom Aura,Rare,Cosmetic
-Floral,Blooming Umbrella a.f,Epic,Cosmetic
+Floral,Blooming Umbrella ,Epic,Cosmetic
 Floral,Floral Sword,Common,Tool
 Floral,Floral Bow,Common,Tool
 Floral,Floral Axe,Common,Tool
@@ -546,7 +546,7 @@ Shamrock,Lucky Axe,Common,Tool
 Shamrock,Lucky Pickaxe,Common,Tool
 Shamrock,Lucky Shovel,Common,Tool
 Shamrock,Lucky Hoe,Common,Tool
-Shamrock,Lucky Shield a.f,Common,Tool
+Shamrock,Lucky Shield ,Common,Tool
 Shamrock,Rainbow Gesture,Rare,Gesture
 Shamrock,Clover Balloons,Rare,Furniture
 Shamrock,Giant Clover,Rare,Furniture
@@ -601,7 +601,7 @@ Toy,Train Balloon,Rare,Cosmetic
 Toy,Toy Winder,Epic,Cosmetic
 Toy,Drum Kit,Legendary,Cosmetic
 Toy,Toy Sword,Common,Tool
-Toy,Toy Bow a.f,Common,Tool
+Toy,Toy Bow ,Common,Tool
 Toy,Toy Axe,Common,Tool
 Toy,Toy Pickaxe,Common,Tool
 Toy,Toy Shovel,Common,Tool
@@ -685,4 +685,5 @@ Zodiac,Jade Axe,Common,Tool
 Zodiac,Jade Pickaxe,Common,Tool
 Zodiac,Jade Shovel,Common,Tool
 Zodiac,Jade Hoe,Common,Tool
+
 Zodiac,Jade Shield,Common,Tool
