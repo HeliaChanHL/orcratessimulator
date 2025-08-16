@@ -1,38 +1,4 @@
 ﻿crate,name,rarity,type
-Funfair,Circus Flag,Common,Furniture
-Funfair,Fair Lights,Common,Furniture
-Funfair,Cotton Candy Tray,Common,Furniture
-Funfair,Circus Podium,Common,Furniture
-Funfair,Photo Standee,Common,Furniture
-Funfair,Popcorn Bucket,Common,Furniture
-Funfair,Party Hat,Common,Cosmetic
-Funfair,Food Stall,Rare,Furniture
-Funfair,Spot Light,Rare,Furniture
-Funfair,Bumper Car,Rare,Furniture
-Funfair,Balloon Bundle,Rare,Furniture
-Funfair,High Striker,Rare,Furniture
-Funfair,Tube Man,Epic,Furniture
-Funfair,Clown Car Gesture,Epic,Gesture
-Funfair,Circus Tent,Epic,Furniture
-Funfair,Tube Man Gesture,Epic,Gesture
-Funfair,Carousel,Legendary,Furniture
-Fast Food,Condiment Caddy,Common,Furniture
-Fast Food,Burger Trey,Common,Furniture
-Fast Food,Cone Light,Common,Furniture
-Fast Food,Restaurant Table,Common,Furniture
-Fast Food,Hotdog Tray,Common,Furniture
-Fast Food,Donut Box,Common,Furniture
-Fast Food,Comically Large Fork,Common,Cosmetic
-Fast Food,Comically Large Spoon,Common,Cosmetic
-Fast Food,Restaurant Booth,Rare,Furniture
-Fast Food,Fry Pack,Rare,Cosmetic
-Fast Food,Menu Screen,Rare,Furniture
-Fast Food,Burger Cap,Rare,Cosmetic
-Fast Food,Vending Machine,Epic,Furniture
-Fast Food,Burger Signage,Epic,Furniture
-Fast Food,Hotdog Signage,Epic,Furniture
-Fast Food,Donut Signage,Epic,Furniture
-Fast Food,Burger Mascot Inflatable,Legendary,Furniture
 Animal,Capybara Plushie,Common,Furniture
 Animal,Cat Plushie,Common,Furniture
 Animal,Dog Plushie,Common,Furniture
@@ -49,12 +15,83 @@ Animal,Parrot Balloon,Epic,Cosmetic
 Animal,Giraffe Helmet,Epic,Cosmetic
 Animal,Snake Balloon,Epic,Cosmetic
 Animal,Elephant Inflatable,Legendary,Furniture
+Animal,Snake Balloon a.f,Epic,Cosmetic
+Aquatic,Random Pirate Tool,Common,Tool
+Aquatic,Harpoon Bow,Common,Tool
+Aquatic,Inky,Common,Furniture
+Aquatic,Giant Oyster,Common,Furniture
+Aquatic,Life Ring,Common,Cosmetic
+Aquatic,Shark Tail,Common,Cosmetic
+Aquatic,Anchor,Common,Cosmetic
+Aquatic,Jellyfish,Common,Furniture
+Aquatic,Jellyfish Balloon,Rare,Cosmetic
+Aquatic,Diver Helmet,Rare,Cosmetic
+Aquatic,Shark Hat,Rare,Cosmetic
+Aquatic,Crab Claw,Rare,Cosmetic
+Aquatic,Carp Balloon,Rare,Cosmetic
+Aquatic,Swim Gesture,Rare,Gesture
+Aquatic,Fishing Boat,Epic,Furniture
+Aquatic,Fishing Dock,Epic,Furniture
+Aquatic,Buoy,Epic,Furniture
+Aquatic,Large Jellyfish,Legendary,Furniture
+Aquatic,Jellyfish Hat,Common,Cosmetic
+Aquatic,Pirate Sword,Common,Tool
+Aquatic,Pirate Axe,Common,Tool
+Aquatic,Pirate Pickaxe,Common,Tool
+Aquatic,Pirate Shovel,Common,Tool
+Aquatic,Pirate Hoe,Common,Tool
+Aquatic,Pirate Shield,Common,Tool
+Atlantis,Random Atlantean Tool,Common,Tool
+Atlantis,Deep Coral Table,Common,Furniture
+Atlantis,Atlantean Chair,Common,Furniture
+Atlantis,Atlantean Table,Common,Furniture
+Atlantis,Atlantean Lantern,Common,Furniture
+Atlantis,Atlantean Spout,Common,Furniture
+Atlantis,Atlantean Pillar,Rare,Furniture
+Atlantis,Seahorse Gesture,Rare,Gesture
+Atlantis,Manta Ray Balloon,Rare,Cosmetic
+Atlantis,Poseidon's Crown,Rare,Cosmetic
+Atlantis,Poseidon's Robe,Rare,Cosmetic
+Atlantis,Atlantean Throne,Epic,Furniture
+Atlantis,Sea Leviathan Balloon,Epic,Cosmetic
+Atlantis,Poseidon Statue,Epic,Furniture
+Atlantis,Poseidon's Trident,Legendary,Cosmetic
+Atlantis,Atlantean Shrine,Legendary,Furniture
+Atlantis,Atlantean Sword,Common,Tool
+Atlantis,Atlantean Axe,Common,Tool
+Atlantis,Atlantean Pickaxe,Common,Tool
+Atlantis,Atlantean Shield,Common,Tool
+Badger,Beenie,Common,Cosmetic
+Badger,Crystal Crown,Common,Cosmetic
+Badger,Honey Wand,Common,Cosmetic
+Badger,Mushroom Cap,Common,Cosmetic
+Badger,Net,Common,Cosmetic
+Badger,Rake,Common,Cosmetic
+Badger,Snail Eyes,Common,Cosmetic
+Badger,Crop Basket,Rare,Cosmetic
+Badger,Potion Balloon,Rare,Cosmetic
+Badger,Quiver,Rare,Cosmetic
+Badger,Shield Cross,Rare,Cosmetic
+Badger,Spell Book,Rare,Cosmetic
+Badger,Bee Wings,Epic,Cosmetic
+Badger,Beelloon,Epic,Cosmetic
+Badger,Snail Shell,Epic,Cosmetic
+Badger,Traveller Pack,Epic,Cosmetic
+Badger,Karate Gesture,Common,Gesture
+Badger,Holy Hover Gesture,Common,Gesture
+Badger,Mining Gesture,Common,Gesture
+Badger,Sprinkler Dance Gesture,Common,Gesture
+Badger,Outdoor Rocking Chair,Common,Furniture
+Badger,Wedge Tent,Common,Furniture
+Badger,Sash Banner,Rare,Furniture
+Badger,Wooden Cart,Rare,Furniture
+Badger,Stall Cart,Rare,Furniture
+Badger,Wooden Windmill,Legendary,Furniture
 Bathroom,Toiletries Rack,Common,Furniture
 Bathroom,Bathroom Bin,Common,Furniture
 Bathroom,Bathroom Lamp,Common,Furniture
 Bathroom,Shower Head,Common,Furniture
 Bathroom,Bathroom Towels,Common,Furniture
-Bathroom,Toiletpaper,Common,Furniture
 Bathroom,Bathroom Rug,Common,Furniture
 Bathroom,Plunger,Rare,Cosmetic
 Bathroom,Toilet,Rare,Furniture
@@ -64,104 +101,9 @@ Bathroom,Bathroom Sink,Rare,Furniture
 Bathroom,Bathtub,Epic,Furniture
 Bathroom,Rubber Duckie Hat,Epic,Cosmetic
 Bathroom,Flushed Gesture,Epic,Gesture
-Bathroom,Tub,Legendary,Back Cosmetic
-Business,Office Supplies,Common,Furniture
-Business,Fluorescent Light,Common,Furniture
-Business,Laptop,Common,Furniture
-Business,Office Chair,Common,Furniture
-Business,Desk Lamp,Common,Furniture
-Business,Office Blinds,Common,Furniture
-Business,Office Desk,Rare,Furniture
-Business,Filing Cabinet,Rare,Furniture
-Business,Office Ceiling Fan,Rare,Furniture
-Business,Monitor,Rare,Furniture
-Business,Printing Machine,Rare,Furniture
-Business,Money Rain Gesture,Rare,Gesture
-Business,Money Sack,Epic,Cosmetic
-Business,Billboard,Epic,Furniture
-Business,Cubicle,Epic,Furniture
-Business,Revolving Door,Legendary,Furniture
-Garden,Garden Bench,Common,Furniture
-Garden,Garden Chair,Common,Furniture
-Garden,Garden Table,Common,Furniture
-Garden,Garden Tools,Common,Furniture
-Garden,Potted Delphiniums,Common,Furniture
-Garden,Tall Hedge,Common,Furniture
-Garden,Yard Gnome,Common,Furniture
-Garden,Young Tree,Rare,Furniture
-Garden,Garden Lamppost,Rare,Furniture
-Garden,Hydrangea Bush,Rare,Furniture
-Garden,Ivy Trellis,Rare,Furniture
-Garden,Push Mower,Rare,Furniture
-Garden,Watering Gesture,Rare,Gesture
-Garden,Greenhouse,Epic,Furniture
-Garden,Ivy Pergola,Epic,Furniture
-Garden,Mowing Gesture,Epic,Gesture
-Garden,Garden Fountain,Legendary,Furniture
-Medieval,Knight Shield Skin,Common,Tool
-Medieval,Medieval Chair,Common,Furniture
-Medieval,Medieval Table,Common,Furniture
-Medieval,Royal Banner,Common,Furniture
-Medieval,Royal Curtain,Common,Furniture
-Medieval,Jester Hat,Common,Cosmetic
-Medieval,Medieval Candelabra,Common,Furniture
-Medieval,Armor Display,Rare,Furniture
-Medieval,Dungeon Cage,Rare,Furniture
-Medieval,Knight Armor,Rare,Cosmetic
-Medieval,Knight Helmet,Rare,Cosmetic
-Medieval,Medieval Cart,Rare,Furniture
-Medieval,Lute,Rare,Cosmetic
-Medieval,Royal Throne,Epic,Furniture
-Medieval,Dragon Wings,Epic,Cosmetic
-Medieval,Royal Crown,Epic,Cosmetic
-Medieval,Dragon Balloon,Legendary,Cosmetic
-Space,Random Energy Tool,Common,Tool
-Space,Control Panel,Common,Furniture
-Space,Metal Crate,Common,Furniture
-Space,Solar Panel,Common,Furniture
-Space,Tube Light,Common,Furniture
-Space,Telescope,Common,Furniture
-Space,Cryotank,Rare,Furniture
-Space,Astronaut Helmet,Rare,Cosmetic
-Space,Astronaut Air Tank,Rare,Cosmetic
-Space,Sussy Helmet,Rare,Cosmetic
-Space,Rocket Rider Gesture,Epic,Gesture
-Space,Rocketship,Epic,Furniture
-Space,Sussy Walk Gesture,Epic,Gesture
-Space,Space Buggy,Epic,Furniture
-Space,Stellar Hat,Legendary,Cosmetic
-Space,Solar System Model,Legendary,Furniture
-Western,Flat Cactus,Common,Furniture
-Western,Rustic Crate,Common,Furniture
-Western,Saloon Chair,Common,Furniture
-Western,Saloon Lantern,Common,Furniture
-Western,Saloon Table,Common,Furniture
-Western,Western Hat,Common,Cosmetic
-Western,Saloon Sign,Rare,Furniture
-Western,Oil Lamppost,Rare,Furniture
-Western,Saloon Bench,Rare,Furniture
-Western,Cactus Helmet,Rare,Cosmetic
-Western,Covered Wagon,Epic,Furniture
-Western,Water Tower,Epic,Furniture
-Western,Cactus Suit,Epic,Cosmetic
-Western,Rustic Windmill,Legendary,Furniture
-Western,Rustic Waterwheel,Legendary,Furniture
-Wizardry,Magic Herbs,Common,Furniture
-Wizardry,Potted Glowshroom,Common,Furniture
-Wizardry,Magic Book Stack,Common,Furniture
-Wizardry,Dream Catcher,Common,Furniture
-Wizardry,Magic Tapestry,Common,Furniture
-Wizardry,Magic Mirror,Rare,Furniture
-Wizardry,Wizard Hat,Rare,Cosmetic
-Wizardry,Wizard Staff,Rare,Cosmetic
-Wizardry,Witch Cauldron,Rare,Cosmetic
-Wizardry,Magic Candles,Rare,Furniture
-Wizardry,Wizard Robe,Epic,Cosmetic
-Wizardry,Spellcasting Gesture,Epic,Gesture
-Wizardry,Potion Station,Epic,Furniture
-Wizardry,Runic Statue,Epic,Furniture
-Wizardry,Magic Cauldron,Legendary,Furniture
-Wizardry,Phoenix Balloon,Legendary,Cosmetic
+Bathroom,Tub,Legendary,Cosmetic
+Bathroom,Toilet Paper,Common,Furniture
+Bathroom,Bathroom Mirror,Common,Furniture
 Beach,Random Shell Tool,Common,Tool
 Beach,Tiki Shield,Common,Tool
 Beach,Squirt Bow,Common,Tool
@@ -181,37 +123,566 @@ Beach,Slushy Signage,Epic,Furniture
 Beach,Tiki Statue,Epic,Furniture
 Beach,Food Truck,Legendary,Furniture
 Beach,Miniature Lighthouse,Legendary,Furniture
-Aquatic,Random Pirate Tool,Common,Tool
-Aquatic,Harpoon Bow,Common,Tool
-Aquatic,Inky,Common,Furniture
-Aquatic,Giant Oyster,Common,Furniture
-Aquatic,Life Ring,Common,Cosmetic
-Aquatic,Shark Tail,Common,Cosmetic
-Aquatic,Anchor,Common,Cosmetic
-Aquatic,Jellyfish,Common,Furniture
-Aquatic,Jellyfish Balloon,Rare,Cosmetic
-Aquatic,Diver Helmet,Rare,Cosmetic
-Aquatic,Shark Hat,Rare,Cosmetic
-Aquatic,Crab Claw,Rare,Cosmetic
-Aquatic,Carp Balloon,Rare,Cosmetic
-Aquatic,Swim Gesture,Rare,Gesture
-Aquatic,Fishing Boat,Epic,Furniture
-Aquatic,Fishing Dock,Epic,Furniture
-Aquatic,Buoy,Epic,Furniture
-Aquatic,Large Jellyfish,Legendary,Furniture
-Atlantis,Random Atlantean Tool,Common,Tool
-Atlantis,Deep Coral Table,Common,Furniture
-Atlantis,Atlantean Chair,Common,Furniture
-Atlantis,Atlantean Table,Common,Furniture
-Atlantis,Atlantean Lantern,Common,Furniture
-Atlantis,Atlantean Spout,Common,Furniture
-Atlantis,Atlantean Pillar,Rare,Furniture
-Atlantis,Seahorse Gesture,Rare,Gesture
-Atlantis,Manta Ray Balloon,Rare,Cosmetic
-Atlantis,Poseidon's Crown,Rare,Cosmetic
-Atlantis,Poseidon's Robe,Rare,Cosmetic
-Atlantis,Atlantean Throne,Epic,Furniture
-Atlantis,Sea Leviathan Balloon,Epic,Cosmetic
-Atlantis,Poseidon Statue,Epic,Furniture
-Atlantis,Poseidon's Trident,Legendary,Cosmetic
-Atlantis,Atlantean Shrine,Legendary,Furniture
+Beach,Shell Sword,Common,Tool
+Beach,Shell Axe,Common,Tool
+Beach,Shell Pickaxe,Common,Tool
+Beach,Shell Shovel,Common,Tool
+Beach,Shell Hoe,Common,Tool
+Business,Office Supplies,Common,Furniture
+Business,Fluorescent Light,Common,Furniture
+Business,Laptop,Common,Furniture
+Business,Office Chair,Common,Furniture
+Business,Desk Lamp,Common,Furniture
+Business,Office Blinds,Common,Furniture
+Business,Office Desk,Rare,Furniture
+Business,Filing Cabinet,Rare,Furniture
+Business,Office Ceiling Fan,Rare,Furniture
+Business,Monitor,Rare,Furniture
+Business,Printing Machine,Rare,Furniture
+Business,Money Rain Gesture,Rare,Gesture
+Business,Money Sack,Epic,Cosmetic
+Business,Billboard,Epic,Furniture
+Business,Cubicle,Epic,Furniture
+Business,Revolving Door,Legendary,Furniture
+Camping,Flashlight,Common,Cosmetic
+Camping,Log Bundle,Rare,Cosmetic
+Camping,Chainsaw,Epic,Cosmetic
+Camping,Cuckoo Clock,Legendary,Cosmetic
+Camping,Binoculars Gesture,Common,Gesture
+Camping,Cabin Lamp,Common,Furniture
+Camping,Potted Forest Fern,Common,Furniture
+Camping,Cabin Chair,Common,Furniture
+Camping,Deer Mount,Common,Furniture
+Camping,Cabin Table,Common,Furniture
+Camping,Young Cyprus,Rare,Furniture
+Camping,Cabin Bed,Rare,Furniture
+Camping,Wooden Canoe,Rare,Furniture
+Camping,Large Hammock,Rare,Furniture
+Camping,Cabin Fireplace,Epic,Furniture
+Camping,Bonfire,Epic,Furniture
+Camping,Campervan,Legendary,Furniture
+Construction,Hard Hat,Common,Cosmetic
+Construction,Treads,Epic,Cosmetic
+Construction,Crane,Legendary,Cosmetic
+Construction,Jackhammer Gesture,Epic,Gesture
+Construction,Construction Ladder,Common,Furniture
+Construction,Wheelbarrow,Common,Furniture
+Construction,Construction Tools,Common,Furniture
+Construction,Pallet Stack,Common,Furniture
+Construction,I-Beam,Rare,Furniture
+Construction,Metal Scaffolding,Rare,Furniture
+Construction,Porta Potty,Rare,Furniture
+Construction,Cement Mixer,Rare,Furniture
+Construction,Storage Unit,Epic,Furniture
+Construction,Forklift,Epic,Furniture
+Construction,Excavator,Legendary,Furniture
+Construction,Construction Crane,Legendary,Furniture
+Easter,Hatched Egg Backswag,Common,Cosmetic
+Easter,Carrot Cane,Common,Cosmetic
+Easter,Hatched Egg Hat,Common,Cosmetic
+Easter,Bunny Balloon,Rare,Cosmetic
+Easter,Bunny Beanie,Rare,Cosmetic
+Easter,Egg Basket,Rare,Cosmetic
+Easter,Bunny Headband,Rare,Cosmetic
+Easter,Bunny Egg Balloon,Epic,Cosmetic
+Easter,Ivy Sword,Common,Tool
+Easter,Ivy Bow,Common,Tool
+Easter,Ivy Axe,Common,Tool
+Easter,Ivy Pickaxe,Common,Tool
+Easter,Ivy Shovel,Common,Tool
+Easter,Ivy Hoe,Common,Tool
+Easter,Ivy Shield,Common,Tool
+Easter,Chicken Peck Gesture,Common,Gesture
+Easter,Leap Frog Gesture,Rare,Gesture
+Easter,Hoppers Portrait,Common,Furniture
+Easter,Egg Nest,Common,Furniture
+Easter,Spring Balloons,Rare,Furniture
+Easter,Mother Goose,Epic,Furniture
+Easter,Froggy Bean Bag,Epic,Furniture
+Easter,Bunny Inflatable,Legendary,Furniture
+Fast Food,Condiment Caddy,Common,Furniture
+Fast Food,Burger Tray,Common,Furniture
+Fast Food,Cone Light,Common,Furniture
+Fast Food,Restaurant Table,Common,Furniture
+Fast Food,Hotdog Tray,Common,Furniture
+Fast Food,Donut Box,Common,Furniture
+Fast Food,Comically Large Fork,Common,Cosmetic
+Fast Food,Comically Large Spoon,Common,Cosmetic
+Fast Food,Restaurant Booth,Rare,Furniture
+Fast Food,Fry Pack,Rare,Cosmetic
+Fast Food,Menu Screen,Rare,Furniture
+Fast Food,Burger Cap,Rare,Cosmetic
+Fast Food,Vending Machine,Epic,Furniture
+Fast Food,Burger Signage,Epic,Furniture
+Fast Food,Hotdog Signage,Epic,Furniture
+Fast Food,Donut Signage,Epic,Furniture
+Fast Food,Burger Mascot Inflatable,Legendary,Furniture
+Festive,Christmas Lights Arm,Common,Cosmetic
+Festive,Candy Cane Staff,Common,Cosmetic
+Festive,Reindeer Antlers,Common,Cosmetic
+Festive,Santa Hat,Common,Cosmetic
+Festive,Elf Hat,Common,Cosmetic
+Festive,Festive Candle,Common,Cosmetic
+Festive,Christmas Tree Hat,Rare,Cosmetic
+Festive,Festive Bells,Rare,Cosmetic
+Festive,Garland Balloon,Epic,Cosmetic
+Festive,Sleigh Balloon,Legendary,Cosmetic
+Festive,Festive Sword,Common,Tool
+Festive,Festive Bow,Common,Tool
+Festive,Festive Axe,Common,Tool
+Festive,Festive Pickaxe,Common,Tool
+Festive,Festive Shovel,Common,Tool
+Festive,Festive Hoe,Common,Tool
+Festive,Gingerbread Shield,Common,Tool
+Festive,Sleigh Ride Gesture,Epic,Gesture
+Festive,Festive Cutout,Common,Furniture
+Festive,Santa Sleigh,Rare,Furniture
+Festive,Christmas Tree,Rare,Furniture
+Festive,Festive Lamppost,Rare,Furniture
+Festive,Giant Candy Cane,Rare,Furniture
+Festive,Festive Carriage,Legendary,Furniture
+Floral,Flower Basket,Common,Cosmetic
+Floral,Bonnet,Common,Cosmetic
+Floral,Butterfly Antennae,Common,Cosmetic
+Floral,Ladybug Wings,Common,Cosmetic
+Floral,Caterpillar Balloon,Rare,Cosmetic
+Floral,Butterfly Wings,Rare,Cosmetic
+Floral,Bloom Aura,Rare,Cosmetic
+Floral,Blooming Umbrella a.f,Epic,Cosmetic
+Floral,Floral Sword,Common,Tool
+Floral,Floral Bow,Common,Tool
+Floral,Floral Axe,Common,Tool
+Floral,Floral Pickaxe,Common,Tool
+Floral,Floral Shovel,Common,Tool
+Floral,Floral Hoe,Common,Tool
+Floral,Flower Shield,Common,Tool
+Floral,Butterfly Hover Gesture,Common,Gesture
+Floral,Flower Arch,Common,Furniture
+Floral,Spring Swing,Rare,Furniture
+Floral,Flower Pinwheel,Rare,Furniture
+Floral,Giant Flower,Rare,Furniture
+Floral,Flower Wagon,Epic,Furniture
+Floral,Butterfly House,Epic,Furniture
+Floral,Spring Carriage,Legendary,Furniture
+Funfair,Circus Flag,Common,Furniture
+Funfair,Fair Lights,Common,Furniture
+Funfair,Cotton Candy Tray,Common,Furniture
+Funfair,Circus Podium,Common,Furniture
+Funfair,Photo Standee,Common,Furniture
+Funfair,Popcorn Bucket,Common,Furniture
+Funfair,Party Hat,Common,Cosmetic
+Funfair,Food Stall,Rare,Furniture
+Funfair,Spot Light,Rare,Furniture
+Funfair,Bumper Car,Rare,Furniture
+Funfair,Balloon Bundle,Rare,Furniture
+Funfair,High Striker,Rare,Furniture
+Funfair,Tube Man,Epic,Furniture
+Funfair,Clown Car Gesture,Epic,Gesture
+Funfair,Circus Tent,Epic,Furniture
+Funfair,Tube Man Gesture,Epic,Gesture
+Funfair,Carousel,Legendary,Furniture
+Garden,Garden Bench,Common,Furniture
+Garden,Garden Chair,Common,Furniture
+Garden,Garden Table,Common,Furniture
+Garden,Garden Tools,Common,Furniture
+Garden,Potted Delphiniums,Common,Furniture
+Garden,Tall Hedge,Common,Furniture
+Garden,Yard Gnome,Common,Furniture
+Garden,Young Tree,Rare,Furniture
+Garden,Garden Lamppost,Rare,Furniture
+Garden,Hydrangea Bush,Rare,Furniture
+Garden,Ivy Trellis,Rare,Furniture
+Garden,Push Mower,Rare,Furniture
+Garden,Watering Gesture,Rare,Gesture
+Garden,Greenhouse,Epic,Furniture
+Garden,Ivy Pergola,Epic,Furniture
+Garden,Mowing Gesture,Epic,Gesture
+Garden,Garden Fountain,Legendary,Furniture
+Glacial,Glacial Sword,Common,Tool
+Glacial,Glacial Bow,Common,Tool
+Glacial,Glacial Axe,Common,Tool
+Glacial,Glacial Pickaxe,Common,Tool
+Glacial,Glacial Shovel,Common,Tool
+Glacial,Glacial Hoe,Common,Tool
+Glacial,Glacial Shield,Common,Tool
+Gothic,Bat Balloon,Common,Cosmetic
+Gothic,Bone Staff,Common,Cosmetic
+Gothic,Demon Horns,Common,Cosmetic
+Gothic,Wraith Hood,Common,Cosmetic
+Gothic,Gothic Lantern,Common,Cosmetic
+Gothic,Ghost Balloon,Rare,Cosmetic
+Gothic,Demon Wings,Rare,Cosmetic
+Gothic,Gothic Sword,Common,Tool
+Gothic,Gothic Bow,Common,Tool
+Gothic,Gothic Axe,Common,Tool
+Gothic,Gothic Pickaxe,Common,Tool
+Gothic,Gothic Shovel,Common,Tool
+Gothic,Gothic Hoe,Common,Tool
+Gothic,Gothic Shield,Common,Tool
+Gothic,Jumpscare Gesture,Rare,Gesture
+Gothic,Marionette Gesture,Epic,Gesture
+Gothic,Coffin,Common,Furniture
+Gothic,Gargoyle,Common,Furniture
+Gothic,Gothic Chandelier,Rare,Furniture
+Gothic,Skeleton Hand Chair,Rare,Furniture
+Gothic,Caged Skeleton,Rare,Furniture
+Gothic,Graveyard Shrine,Epic,Furniture
+Gothic,Organ,Epic,Furniture
+Gothic,Gothic Throne,Epic,Furniture
+Gothic,Timmy,Legendary,Furniture
+Harvest,Turkey Helmet,Common,Cosmetic
+Harvest,Turkey Tail,Common,Cosmetic
+Harvest,Turkey Balloon,Common,Cosmetic
+Harvest,Cornstalk Staff,Common,Cosmetic
+Harvest,Maple Leaf Crown,Common,Cosmetic
+Harvest,Pumpkin Beanie,Common,Cosmetic
+Harvest,Maple Leaf Wings,Rare,Cosmetic
+Harvest,Scarecrow Hat,Rare,Cosmetic
+Harvest,Sunflower Umbrella,Rare,Cosmetic
+Harvest,Blunderbuss,Epic,Cosmetic
+Harvest,Maple Leaf Balloon,Epic,Cosmetic
+Harvest,Maple Sword,Common,Tool
+Harvest,Maple Bow,Common,Tool
+Harvest,Maple Axe,Common,Tool
+Harvest,Maple Pickaxe,Common,Tool
+Harvest,Maple Shovel,Common,Tool
+Harvest,Maple Hoe,Common,Tool
+Harvest,Maple Shield,Common,Tool
+Harvest,Leaf Pile Gesture,Rare,Gesture
+Harvest,Scarecrow Hop Gesture,Rare,Gesture
+Harvest,Autumn Scarecrow,Rare,Furniture
+Harvest,Feast Table,Rare,Furniture
+Harvest,Hay Wagon,Legendary,Furniture
+Kitchen,Chef Hat,Common,Cosmetic
+Kitchen,Apron,Rare,Cosmetic
+Kitchen,Pancake Stack,Epic,Cosmetic
+Kitchen,Soup Pot,Legendary,Cosmetic
+Kitchen,Cooking Gesture,Legendary,Gesture
+Kitchen,Kitchen Stool,Common,Furniture
+Kitchen,Kitchen Cabinet,Common,Furniture
+Kitchen,Cutting Board,Common,Furniture
+Kitchen,Pan,Common,Furniture
+Kitchen,Bowl of Fruit,Common,Furniture
+Kitchen,Utensils Rack,Common,Furniture
+Kitchen,Oven ,Rare,Furniture
+Kitchen,Microwave,Rare,Furniture
+Kitchen,Kitchen Sink,Rare,Furniture
+Kitchen,Kitchen Shelf,Rare,Furniture
+Kitchen,Refridgerator,Rare,Furniture
+Kitchen,Kitchen Island,Epic,Furniture
+Lovely,Lovely Ribbon,Common,Cosmetic
+Lovely,Heart Headband,Common,Cosmetic
+Lovely,Heart Balloon,Common,Cosmetic
+Lovely,Flower Bouquet,Common,Cosmetic
+Lovely,Angelic Halo,Rare,Cosmetic
+Lovely,Teddy Helmet,Rare,Cosmetic
+Lovely,Cherub Balloon,Rare,Cosmetic
+Lovely,Angelic Wings,Rare,Cosmetic
+Lovely,Teddy Bear,Epic,Cosmetic
+Lovely,Cupid's Bow,Legendary,Cosmetic
+Lovely,Rose Gold Sword,Common,Tool
+Lovely,Rose Gold Bow,Common,Tool
+Lovely,Rose Gold Axe,Common,Tool
+Lovely,Rose Gold Pickaxe,Common,Tool
+Lovely,Rose Gold Shovel,Common,Tool
+Lovely,Rose Gold Hoe,Common,Tool
+Lovely,Rose Gold Shield,Common,Tool
+Lovely,Blow Kiss Gesture,Rare,Gesture
+Lovely,Cherub Statue,Rare,Furniture
+Lovely,Lovely Balloon Bundle,Rare,Furniture
+Lovely,Elegant Chandelier,Epic,Furniture
+Lovely,Elegant Swing,Epic,Furniture
+Lovely,Elegant Gazebo,Legendary,Furniture
+Lunar,Lunar Crown,Common,Cosmetic
+Lunar,Lunar Banners,Common,Cosmetic
+Lunar,Lotus Lantern,Common,Cosmetic
+Lunar,Lunar Lantern,Common,Cosmetic
+Lunar,Pellet Drum,Rare,Cosmetic
+Lunar,Lantern Streamer Balloon,Epic,Cosmetic
+Lunar,Firework Backpack,Epic,Cosmetic
+Lunar,Hongbao Sack,Epic,Cosmetic
+Lunar,Lunar Sword,Common,Tool
+Lunar,Lunar Bow,Common,Tool
+Lunar,Lunar Axe,Common,Tool
+Lunar,Lunar Pickaxe,Common,Tool
+Lunar,Lunar Shovel,Common,Tool
+Lunar,Lunar Hoe,Common,Tool
+Lunar,Lunar Shield,Common,Tool
+Lunar,Lunar Rocket Gesture,Rare,Gesture
+Lunar,Ribbon Dance Gesture,Epic,Gesture
+Lunar,Lunar Shrine,Common,Furniture
+Lunar,Lunar Banner,Rare,Furniture
+Lunar,Lunar Snack Cart,Rare,Furniture
+Lunar,Floating Lantern,Rare,Furniture
+Lunar,Lunar Lion Float,Legendary,Furniture
+Medieval,Knight Shield Skin,Common,Tool
+Medieval,Medieval Chair,Common,Furniture
+Medieval,Medieval Table,Common,Furniture
+Medieval,Royal Banner,Common,Furniture
+Medieval,Royal Curtain,Common,Furniture
+Medieval,Jester Hat,Common,Cosmetic
+Medieval,Medieval Candelabra,Common,Furniture
+Medieval,Armor Display,Rare,Furniture
+Medieval,Dungeon Cage,Rare,Furniture
+Medieval,Knight Armor,Rare,Cosmetic
+Medieval,Knight Helmet,Rare,Cosmetic
+Medieval,Medieval Cart,Rare,Furniture
+Medieval,Lute,Rare,Cosmetic
+Medieval,Royal Throne,Epic,Furniture
+Medieval,Dragon Wings,Epic,Cosmetic
+Medieval,Royal Crown,Epic,Cosmetic
+Medieval,Dragon Balloon,Legendary,Cosmetic
+Medieval,Knight Shield,Common,Tool
+Mining,Miner Cap,Common,Cosmetic
+Mining,Ore Backpack,Rare,Cosmetic
+Mining,Drill,Epic,Cosmetic
+Mining,Crystal Spikes,Legendary,Cosmetic
+Mining,Detonator,Common,Furniture
+Mining,Metal Minecart,Common,Furniture
+Mining,Caged Light,Common,Furniture
+Mining,Ore Pile,Common,Furniture
+Mining,Crystal Deposit,Common,Furniture
+Mining,Mining Tools,Common,Furniture
+Mining,Scaffolding Beam,Rare,Furniture
+Mining,Scaffolding Archway,Rare,Furniture
+Mining,Geyser,Rare,Furniture
+Mining,Large Brazier,Epic,Furniture
+Mining,Giant Forge,Epic,Furniture
+Mining,Drill Excavator,Legendary,Furniture
+Muerte,Catrina Crown,Common,Cosmetic
+Muerte,Sugar Skull Mask,Common,Cosmetic
+Muerte,Candle Sombrero,Rare,Cosmetic
+Muerte,Catrin Cloak,Rare,Cosmetic
+Muerte,Sugar Skull Balloon,Epic,Cosmetic
+Muerte,Catrin Guitar,Epic,Cosmetic
+Muerte,Alebrije Balloon,Legendary,Cosmetic
+Muerte,Marigold Sword,Common,Tool
+Muerte,Marigold Bow,Common,Tool
+Muerte,Marigold Axe,Common,Tool
+Muerte,Marigold Pickaxe,Common,Tool
+Muerte,Marigold Shovel,Common,Tool
+Muerte,Marigold Hoe,Common,Tool
+Muerte,Marigold Shield,Common,Tool
+Muerte,Potted Marigolds,Common,Furniture
+Muerte,Pan de Muerto,Common,Furniture
+Muerte,Ribbon Wicker Sphere,Common,Furniture
+Muerte,Marigold Fairylights,Common,Furniture
+Muerte,Marigold Arrangement,Common,Furniture
+Muerte,Marigold Arch,Rare,Furniture
+Muerte,Sugar Skeleton,Rare,Furniture
+Muerte,Marigold Altar,Epic,Furniture
+Muerte,Alebrije Statue,Legendary,Furniture
+Music,EDM Headset ,Common,Cosmetic
+Music,Saxophone ,Rare,Cosmetic
+Music,Guitar ,Rare,Cosmetic
+Music,Disco Balloon,Rare,Cosmetic
+Music,Tuba ,Epic,Cosmetic
+Music,EDM Aura,Legendary,Cosmetic
+Music,Accordion  Gesture,Rare,Gesture
+Music,Acoustic Guitar,Common,Furniture
+Music,Boombox ,Common,Furniture
+Music,Speaker ,Common,Furniture
+Music,Stage Light ,Common,Furniture
+Music,Keyboard Piano,Common,Furniture
+Music,Drumset,Rare,Furniture
+Music,DJ Booth,Epic,Furniture
+Music,Grand Piano,Epic,Furniture
+Music,Concert Stage,Legendary,Furniture
+Palace,Bamboo Hat,Common,Cosmetic
+Palace,Ornate Fan,Common,Cosmetic
+Palace,Blossom Hair Piece,Common,Cosmetic
+Palace,Ornate Parasol,Common,Cosmetic
+Palace,Veiled Hat,Rare,Cosmetic
+Palace,Cherry Blossom Pot,Rare,Cosmetic
+Palace,Dao Blade,Epic,Cosmetic
+Palace,Blossom Balloon,Epic,Cosmetic
+Palace,Blossom Sword,Common,Tool
+Palace,Blossom Bow,Common,Tool
+Palace,Blossom Axe,Common,Tool
+Palace,Blossom Pickaxe,Common,Tool
+Palace,Blossom Shovel,Common,Tool
+Palace,Blossom Hoe,Common,Tool
+Palace,Blossom Shield,Common,Tool
+Palace,Lantern Lake,Common,Furniture
+Palace,Palace Lantern,Rare,Furniture
+Palace,Stone Lion,Rare,Furniture
+Palace,Lantern Lamppost,Rare,Furniture
+Palace,Potted Cherry Blossom,Rare,Furniture
+Palace,Huangshan Pine,Epic,Furniture
+Palace,Lunar Archway,Legendary,Furniture
+Paradise,Lei Necklace,Common,Cosmetic
+Paradise,Snorkel Mask,Common,Cosmetic
+Paradise,Beach Boombox,Common,Cosmetic
+Paradise,Tiki Mask,Rare,Cosmetic
+Paradise,Tropical Headpiece,Rare,Cosmetic
+Paradise,Sea Shell,Epic,Cosmetic
+Paradise,Fire Baton,Legendary,Cosmetic
+Paradise,Koa Sword,Common,Tool
+Paradise,Koa Bow,Common,Tool
+Paradise,Koa Axe,Common,Tool
+Paradise,Koa Pickaxe,Common,Tool
+Paradise,Koa Shovel,Common,Tool
+Paradise,Koa Hoe,Common,Tool
+Paradise,Koa Shield,Common,Tool
+Paradise,Thatch Umbrella,Common,Furniture
+Paradise,Surfboard Rack,Common,Furniture
+Paradise,Tiki Bar,Rare,Furniture
+Paradise,Large Tiki Totem,Rare,Furniture
+Paradise,Fishing Shack,Epic,Furniture
+Paradise,Tiki Gazebo,Epic,Furniture
+Paradise,Sailboat,Legendary,Furniture
+Shamrock,Leaf Crown,Common,Cosmetic
+Shamrock,Leaf Wings,Common,Cosmetic
+Shamrock,Clover Balloon,Common,Cosmetic
+Shamrock,Gnome Hat,Common,Cosmetic
+Shamrock,Kelpie Balloon,Common,Cosmetic
+Shamrock,Shamrock Umbrella,Rare,Cosmetic
+Shamrock,Shamrock Hat,Rare,Cosmetic
+Shamrock,Rainbow Aura,Epic,Cosmetic
+Shamrock,Fairy Balloon,Epic,Cosmetic
+Shamrock,Lucky Sword,Common,Tool
+Shamrock,Lucky Bow,Common,Tool
+Shamrock,Lucky Axe,Common,Tool
+Shamrock,Lucky Pickaxe,Common,Tool
+Shamrock,Lucky Shovel,Common,Tool
+Shamrock,Lucky Hoe,Common,Tool
+Shamrock,Lucky Shield a.f,Common,Tool
+Shamrock,Rainbow Gesture,Rare,Gesture
+Shamrock,Clover Balloons,Rare,Furniture
+Shamrock,Giant Clover,Rare,Furniture
+Shamrock,Pot of Coins,Epic,Furniture
+Shamrock,Giant Rainbow,Legendary,Furniture
+Shamrock,Fairy Tree,Legendary,Furniture
+Space,Random Energy Tool,Common,Tool
+Space,Control Panel,Common,Furniture
+Space,Metal Crate,Common,Furniture
+Space,Solar Panel,Common,Furniture
+Space,Tube Light,Common,Furniture
+Space,Telescope,Common,Furniture
+Space,Cryotank,Rare,Furniture
+Space,Astronaut Helmet,Rare,Cosmetic
+Space,Astronaut Air Tank,Rare,Cosmetic
+Space,Sussy Helmet,Rare,Cosmetic
+Space,Rocket Rider Gesture,Epic,Gesture
+Space,Rocketship,Epic,Furniture
+Space,Sussy Walk Gesture,Epic,Gesture
+Space,Space Buggy,Epic,Furniture
+Space,Stellar Hat,Legendary,Cosmetic
+Space,Solar System Model,Legendary,Furniture
+Space,Energy Bow,Common,Tool
+Space,Energy Shield,Common,Tool
+Spooky,Frankenstein Hat,Common,Cosmetic
+Spooky,Candy Bucket,Common,Cosmetic
+Spooky,Jacko Helmet,Common,Cosmetic
+Spooky,Eyeball,Common,Cosmetic
+Spooky,Meat Cleaver,Common,Cosmetic
+Spooky,Magic Broom,Rare,Cosmetic
+Spooky,Plague Doctor Mask,Rare,Cosmetic
+Spooky,Eyeball Balloon,Rare,Cosmetic
+Spooky,Monster Slayer Gear,Rare,Cosmetic
+Spooky,Spider Legs,Epic,Cosmetic
+Spooky,Medusa Hat,Epic,Cosmetic
+Spooky,Spooky Sword,Common,Tool
+Spooky,Spooky Bow,Common,Tool
+Spooky,Spooky Axe,Common,Tool
+Spooky,Spooky Pickaxe,Common,Tool
+Spooky,Spooky Shovel,Common,Tool
+Spooky,Spooky Hoe,Common,Tool
+Spooky,Pumpkin Shield,Common,Tool
+Spooky,Spider Walk Gesture,Epic,Gesture
+Spooky,Pumpkin Portrait,Common,Furniture
+Spooky,Charlotte,Rare,Furniture
+Spooky,Halloween Balloons,Rare,Furniture
+Spooky,Summoning Circle,Epic,Furniture
+Spooky,Fortune Teller Cart,Legendary,Furniture
+Toy,Gift Sack,Common,Cosmetic
+Toy,Shako Hat,Common,Cosmetic
+Toy,Train Balloon,Rare,Cosmetic
+Toy,Toy Winder,Epic,Cosmetic
+Toy,Drum Kit,Legendary,Cosmetic
+Toy,Toy Sword,Common,Tool
+Toy,Toy Bow a.f,Common,Tool
+Toy,Toy Axe,Common,Tool
+Toy,Toy Pickaxe,Common,Tool
+Toy,Toy Shovel,Common,Tool
+Toy,Toy Hoe,Common,Tool
+Toy,Toy Shield,Common,Tool
+Toy,Toy Jack Gesture,Rare,Gesture
+Toy,Train Gesture,Epic,Gesture
+Toy,Train Engine,Common,Furniture
+Toy,Gingerbread House,Common,Furniture
+Toy,Train Cart,Common,Furniture
+Toy,Reindeer Rocker,Common,Furniture
+Toy,Nutcracker,Common,Furniture
+Toy,Train Set,Rare,Furniture
+Toy,Jingle Inflatable,Rare,Furniture
+Toy,Festive Balloons,Rare,Furniture
+Toy,Santa Chair,Epic,Furniture
+Toy,Magic Train,Legendary,Furniture
+Western,Flat Cactus,Common,Furniture
+Western,Rustic Crate,Common,Furniture
+Western,Saloon Chair,Common,Furniture
+Western,Saloon Lantern,Common,Furniture
+Western,Saloon Table,Common,Furniture
+Western,Western Hat,Common,Cosmetic
+Western,Saloon Sign,Rare,Furniture
+Western,Oil Lamppost,Rare,Furniture
+Western,Saloon Bench,Rare,Furniture
+Western,Cactus Helmet,Rare,Cosmetic
+Western,Covered Wagon,Epic,Furniture
+Western,Water Tower,Epic,Furniture
+Western,Cactus Suit,Epic,Cosmetic
+Western,Rustic Windmill,Legendary,Furniture
+Western,Rustic Waterwheel,Legendary,Furniture
+Winter,Penguin Balloon,Common,Cosmetic
+Winter,Winter Scarf,Common,Cosmetic
+Winter,Ski Hat,Common,Cosmetic
+Winter,Mittens,Common,Cosmetic
+Winter,Snow Globe,Rare,Cosmetic
+Winter,Snowman Hat,Rare,Cosmetic
+Winter,Snowman Suit,Rare,Cosmetic
+Winter,Snow Shovel,Rare,Cosmetic
+Winter,Skiis,Epic,Cosmetic
+Winter,Blizzard Balloon,Legendary,Cosmetic
+Winter,Avalanche Gesture,Rare,Gesture
+Winter,Snow Mobile Gesture,Epic,Gesture
+Winter,Frost Table,Common,Furniture
+Winter,Large Pine Tree,Rare,Furniture
+Winter,Aurora,Epic,Furniture
+Winter,Large Igloo,Legendary,Furniture
+Wizardry,Magic Herbs,Common,Furniture
+Wizardry,Potted Glowshroom,Common,Furniture
+Wizardry,Magic Book Stack,Common,Furniture
+Wizardry,Dream Catcher,Common,Furniture
+Wizardry,Magic Tapestry,Common,Furniture
+Wizardry,Magic Mirror,Rare,Furniture
+Wizardry,Wizard Hat,Rare,Cosmetic
+Wizardry,Wizard Staff,Rare,Cosmetic
+Wizardry,Witch Cauldron,Rare,Cosmetic
+Wizardry,Magic Candles,Rare,Furniture
+Wizardry,Wizard Robe,Epic,Cosmetic
+Wizardry,Spellcasting Gesture,Epic,Gesture
+Wizardry,Potion Station,Epic,Furniture
+Wizardry,Runic Statue,Epic,Furniture
+Wizardry,Magic Cauldron,Legendary,Furniture
+Wizardry,Phoenix Balloon,Legendary,Cosmetic
+Zodiac,Dragon Dance Gesture,Rare,Gesture
+Zodiac,Koi Swim Gesture,Epic,Gesture
+Zodiac,Koi Pond,Common,Furniture
+Zodiac,Zodiac Tapestry,Rare,Furniture
+Zodiac,Carp Streamers,Rare,Furniture
+Zodiac,Lucky Cat Inflatable,Epic,Furniture
+Zodiac,Koi Spirits,Legendary,Furniture
+Zodiac,Dragon Float Cloak,Common,Cosmetic
+Zodiac,Dragon Float Helmet,Common,Cosmetic
+Zodiac,Fish Lantern Balloon,Common,Cosmetic
+Zodiac,Panda Backpack,Rare,Cosmetic
+Zodiac,Lunar Dragon Balloon,Epic,Cosmetic
+Zodiac,Lucky Cat,Epic,Cosmetic
+Zodiac,Jade Sword,Common,Tool
+Zodiac,Jade Bow,Common,Tool
+Zodiac,Jade Axe,Common,Tool
+Zodiac,Jade Pickaxe,Common,Tool
+Zodiac,Jade Shovel,Common,Tool
+Zodiac,Jade Hoe,Common,Tool
+Zodiac,Jade Shield,Common,Tool
