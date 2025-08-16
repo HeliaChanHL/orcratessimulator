@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from cratesData import *
+
 def display():
     num_crates=st.session_state["num_crates"]
     crate_type=st.session_state["crate_type"]
@@ -44,6 +45,7 @@ def display():
         # Check if the item name contains any of the finish names
         for finish in finishes:
             if val.startswith(finish):  # Check if the value starts with a finish name
+                st.balloons()
                 return f'background-color: {finishes[finish]}; color: white;font-weight: bold;'
         
         # Match the display name with the corresponding item rarity
@@ -74,7 +76,11 @@ def display():
     # Display the results table with formatting and no index
     st.subheader(f"Results for {crate_type} Crates:")
     st.dataframe(styled_df.hide(axis="index"))  # Hide the index
-
+    st.button("Open another Crate",use_container_width=True)
+    with st.expander("Configured Odds",expanded=st.session_state["show_odds"]):
+        rarity_probabilities["Finish"]=finish_chance
+        odds_df = pd.DataFrame(rarity_probabilities.items(), columns=['Rarity', 'Probability'])
+        st.dataframe(odds_df)
     # Statistics
     # Display statistics in the sidebar
     st.subheader("Statistics")
@@ -96,7 +102,4 @@ def display():
     # Create an expander for crate type counts
     with st.expander("Crate Type Counts"):
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
-
         st.dataframe(crate_df)
-
-

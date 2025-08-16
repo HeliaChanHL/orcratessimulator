@@ -13,10 +13,10 @@ def formUI():
             # Initialize probabilities if not set
             if "rarity_probabilities" not in st.session_state:
                 st.session_state["rarity_probabilities"] = {
-                    "Legendary": 0.10,
-                    "Epic": 0.15,
-                    "Rare": 0.25,
-                    "Common": 0.50
+                    "Legendary": 0.05,
+                    "Epic": 0.13,
+                    "Rare": 0.27,
+                    "Common": 0.55
                 }
 
             # Adjust sliders using existing session state values
@@ -49,7 +49,8 @@ def formUI():
     st.session_state["crates"] = crates
 
     # Select crate type
-    with col2:
+    with col2: 
+        
         with st.container(border=True):
             # Allow users to adjust finish chance
             if "finish_chance" not in st.session_state:
@@ -65,6 +66,10 @@ def formUI():
                 st.session_state["num_crates"] = 1
             st.session_state["num_crates"] = st.number_input("Number of crates to open:", min_value=1, value=st.session_state["num_crates"])
 
+            if "show_odds" not in st.session_state:
+                st.session_state["show_odds"] = True
+            st.session_state["show_odds"] = st.selectbox("Display Odds by default:",[True,False],index=[True,False].index(st.session_state["show_odds"]))
+            st.write("")
     # Counter for OR-Bucks and crates opened
     if 'crates_opened' not in st.session_state:
         st.session_state['crates_opened'] = 0
