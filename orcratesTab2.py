@@ -76,7 +76,7 @@ def display():
     # Display the results table with formatting and no index
     st.subheader(f"Results for {crate_type} Crates:")
     st.dataframe(styled_df.hide(axis="index"))  # Hide the index
-    st.button("Open another Crate",use_container_width=True)
+    st.button("Open Another Crate",use_container_width=True)
     with st.expander("Configured Odds",expanded=st.session_state["show_odds"]):
         rarity_probabilities["Finish"]=finish_chance
         odds_df = pd.DataFrame(rarity_probabilities.items(), columns=['Rarity', 'Probability'])
@@ -102,4 +102,5 @@ def display():
     # Create an expander for crate type counts
     with st.expander("Crate Type Counts"):
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
+
         st.dataframe(crate_df)
