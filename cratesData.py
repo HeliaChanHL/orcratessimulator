@@ -18,7 +18,8 @@ rarity_color_map = {
     "Epic": "#895bf3",
     "Legendary": "#f19c0b"
 }
-
+audio_directory = "sound/"
+audio=["letsgogambling.mp3","awdangit.mp3","gambling.mp3"]
 # Crate and Item Classes
 class Item:
     def __init__(self, name, rarity, item_type):
