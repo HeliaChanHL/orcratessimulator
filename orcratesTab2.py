@@ -95,7 +95,7 @@ def display():
     type_counts = st.session_state['type_counts']
     crate_counts = st.session_state['crate_counts']
     finish_counts = st.session_state['finishList']
-    with st.expander("Rarity Counts"):
+    with st.expander("Finish Counts"):
         finish_df = pd.DataFrame(finish_counts, columns=['Pulled Finishes'])
         st.dataframe(finish_df.style.map(highlight_cells))
 
@@ -112,4 +112,5 @@ def display():
     # Create an expander for crate type counts
     with st.expander("Crate Type Counts"):
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
+
         st.dataframe(crate_df)
