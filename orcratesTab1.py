@@ -2,14 +2,17 @@ import streamlit as st
 from cratesData import *
 import pandas as pd
 from os import path
-from playsound import playsound
+from pygame import mixer
+
 
 def modalContent():
     st.link_button("👑 Visit ORFinishes for Item Checklists! 👑","https://orfinishes.com",use_container_width=True)
     st.markdown(modalText)
 def formUI():
+    mixer.init()
     audio_path = path.join(audio_directory, audio[0])
-    playsound(audio_path)
+    mixer.music.load(audio_path)
+    mixer.music.play()
     # Allow users to adjust rarity probabilities
     st.subheader("Adjust Rarity Probabilities")
     col1, col2 = st.columns(2)
@@ -107,5 +110,4 @@ def formUI():
 
 def submit():
     st.session_state.calc = False
-
     st.session_state.buttonDis = False
