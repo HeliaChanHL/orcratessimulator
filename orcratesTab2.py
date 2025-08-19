@@ -19,8 +19,7 @@ def display():
     items_with_rarity = []
     if 'finishList' not in st.session_state:
         st.session_state["finishList"]=[]
-    if 'balloons' not in st.session_state:
-        st.session_state["balloons"]=False
+    st.session_state["balloons"]=False
     # Open selected number of crates and collect results
     for i in range(num_crates):
         opened_items = crates[crate_type].open_crate(finish_chance,rarity_probabilities)
@@ -112,3 +111,4 @@ def display():
     with st.expander("Crate Type Counts"):
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
         st.dataframe(crate_df)
+
