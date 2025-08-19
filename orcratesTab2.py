@@ -36,6 +36,7 @@ def display():
         # Update rarity and type counts
         for item in opened_items:
             if item.has_finish:
+                st.session_state["finishList"].append(item.display_name)
                 st.session_state['rarity_counts']['Finish'] += 1
             st.session_state['rarity_counts'][item.rarity] += 1
             st.session_state['type_counts'][item.item_type] += 1
@@ -51,7 +52,6 @@ def display():
                 if not st.session_state["balloons"]:
                     st.balloons()
                     st.session_state["balloons"]=True
-                st.session_state["finishList"].append(val)
                 return f'background-color: {finishes[finish]}; color: white;font-weight: bold;'
         
         # Match the display name with the corresponding item rarity
@@ -112,5 +112,4 @@ def display():
     # Create an expander for crate type counts
     with st.expander("Crate Type Counts"):
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
-
         st.dataframe(crate_df)
