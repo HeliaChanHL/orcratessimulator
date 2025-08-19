@@ -2,7 +2,6 @@ import streamlit as st
 from cratesData import *
 import pandas as pd
 from os import path
-from pygame import mixer
 
 
 def modalContent():
@@ -102,14 +101,11 @@ def formUI():
     # Crate counts
     if 'crate_counts' not in st.session_state:
         st.session_state['crate_counts'] = {crate: 0 for crate in crates.keys()}
-    
-    mixer.init()
-    audio_path = path.join(audio_directory, audio[0])
-    mixer.music.load(audio_path)
-    mixer.music.play()
+   
     st.button("Roll Crates", use_container_width=True, on_click=submit)
 
 def submit():
     st.session_state.calc = False
 
     st.session_state.buttonDis = False
+
