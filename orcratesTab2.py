@@ -4,30 +4,19 @@ from cratesData import *
 from os import path
 from pygame import mixer
 import time
-
+from playsound import playsound
 def loop_audio_for_duration(audio_file: str, duration: int):
     """Play an audio file in a loop for a specified duration in seconds."""
-    # Initialize Pygame mixer
-    mixer.init()
-
-    # Load the audio file
-    mixer.music.load(audio_file)
-
-    # Play the audio
-    mixer.music.play(-1)
-
     # Record the start time
     start_time = time.time()
-
+    
     while True:
+        playsound(audio_file)
         elapsed_time = time.time() - start_time
         if elapsed_time >= duration:
             break  # Exit loop after the specified duration
         time.sleep(0.1)  # Sleep to prevent CPU overuse
     # Stop the music after the loop
-    mixer.music.stop()
-    mixer.quit()
-
 
 def display():
     num_crates=st.session_state["num_crates"]
@@ -143,4 +132,5 @@ def display():
     with st.expander("Crate Type Counts"):
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
         st.dataframe(crate_df)
+
     loop_audio_for_duration(audio_path, loop)
