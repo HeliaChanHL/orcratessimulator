@@ -1,33 +1,6 @@
 import streamlit as st
 import pandas as pd
 from cratesData import *
-from os import path
-from pygame import mixer
-import time
-
-def loop_audio_for_duration(audio_file: str, duration: int):
-    """Play an audio file in a loop for a specified duration in seconds."""
-    # Initialize Pygame mixer
-    mixer.init()
-
-    # Load the audio file
-    mixer.music.load(audio_file)
-
-    # Play the audio
-    mixer.music.play(-1)
-
-    # Record the start time
-    start_time = time.time()
-
-    while True:
-        elapsed_time = time.time() - start_time
-        if elapsed_time >= duration:
-            break  # Exit loop after the specified duration
-        time.sleep(0.1)  # Sleep to prevent CPU overuse
-    # Stop the music after the loop
-    mixer.music.stop()
-    mixer.quit()
-
 
 def display():
     num_crates=st.session_state["num_crates"]
@@ -59,13 +32,9 @@ def display():
 
         # Collect items with their rarities for color coding
         items_with_rarity.extend(opened_items)
-        audio_path = path.join(audio_directory,audio[1])
-        loop=1.5
         # Update rarity and type counts
         for item in opened_items:
             if item.has_finish:
-                audio_path = path.join(audio_directory, audio[2])
-                loop=4
                 st.session_state["finishList"].append(item.display_name)
                 st.session_state['rarity_counts']['Finish'] += 1
             st.session_state['rarity_counts'][item.rarity] += 1
@@ -143,4 +112,3 @@ def display():
     with st.expander("Crate Type Counts"):
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
         st.dataframe(crate_df)
-    loop_audio_for_duration(audio_path, loop)
