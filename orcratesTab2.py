@@ -19,6 +19,8 @@ def display():
     items_with_rarity = []
     if 'finishList' not in st.session_state:
         st.session_state["finishList"]=[]
+    if 'balloons' not in st.session_state:
+        st.session_state["balloons"]=False
     # Open selected number of crates and collect results
     for i in range(num_crates):
         opened_items = crates[crate_type].open_crate(finish_chance,rarity_probabilities)
@@ -46,7 +48,9 @@ def display():
         # Check if the item name contains any of the finish names
         for finish in finishes:
             if val.startswith(finish):  # Check if the value starts with a finish name
-                st.balloons()
+                if not st.session_state["balloons"]:
+                    st.balloons()
+                    st.session_state["balloons"]=True
                 st.session_state["finishList"].append(val)
                 return f'background-color: {finishes[finish]}; color: white;font-weight: bold;'
         
