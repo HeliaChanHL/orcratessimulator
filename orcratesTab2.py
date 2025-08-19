@@ -17,7 +17,8 @@ def display():
     # Initialize a list to store the results for the table
     results = []
     items_with_rarity = []
-
+    if 'finishList' not in st.session_state:
+        st.session_state["finishList"]=[]
     # Open selected number of crates and collect results
     for i in range(num_crates):
         opened_items = crates[crate_type].open_crate(finish_chance,rarity_probabilities)
@@ -46,6 +47,7 @@ def display():
         for finish in finishes:
             if val.startswith(finish):  # Check if the value starts with a finish name
                 st.balloons()
+                st.session_state["finishList"].append(val)
                 return f'background-color: {finishes[finish]}; color: white;font-weight: bold;'
         
         # Match the display name with the corresponding item rarity
@@ -76,7 +78,7 @@ def display():
     # Display the results table with formatting and no index
     st.subheader(f"Results for {crate_type} Crates:")
     st.dataframe(styled_df.hide(axis="index"))  # Hide the index
-    st.button("Open Another Crate",use_container_width=True)
+    st.button("Open another Crate",use_container_width=True)
     with st.expander("Configured Odds",expanded=st.session_state["show_odds"]):
         rarity_probabilities["Finish"]=finish_chance
         odds_df = pd.DataFrame(rarity_probabilities.items(), columns=['Rarity', 'Probability'])
@@ -88,6 +90,10 @@ def display():
     rarity_counts = st.session_state['rarity_counts']
     type_counts = st.session_state['type_counts']
     crate_counts = st.session_state['crate_counts']
+    finish_counts = st.session_state['finishList']
+    with st.expander("Rarity Counts"):
+        finish_df = pd.DataFrame(finish_counts, columns=['Pulled Finishes'])
+        st.dataframe(finish_df.style.map(highlight_cells))
 
     # Create an expander for rarity counts
     with st.expander("Rarity Counts"):
@@ -102,5 +108,4 @@ def display():
     # Create an expander for crate type counts
     with st.expander("Crate Type Counts"):
         crate_df = pd.DataFrame(crate_counts.items(), columns=['Crate Type', 'Count'])
-
         st.dataframe(crate_df)
