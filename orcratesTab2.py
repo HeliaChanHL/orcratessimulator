@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from cratesData import *
 from os import path
-from pygame import mixer
+
 import time
 from playsound import playsound
 def loop_audio_for_duration(audio_file: str, duration: int):
@@ -134,3 +134,4 @@ def display():
         st.dataframe(crate_df)
 
     loop_audio_for_duration(audio_path, loop)
+
