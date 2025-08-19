@@ -9,10 +9,7 @@ def modalContent():
     st.link_button("👑 Visit ORFinishes for Item Checklists! 👑","https://orfinishes.com",use_container_width=True)
     st.markdown(modalText)
 def formUI():
-    mixer.init()
-    audio_path = path.join(audio_directory, audio[0])
-    mixer.music.load(audio_path)
-    mixer.music.play()
+    
     # Allow users to adjust rarity probabilities
     st.subheader("Adjust Rarity Probabilities")
     col1, col2 = st.columns(2)
@@ -105,9 +102,14 @@ def formUI():
     # Crate counts
     if 'crate_counts' not in st.session_state:
         st.session_state['crate_counts'] = {crate: 0 for crate in crates.keys()}
-
+    
+    mixer.init()
+    audio_path = path.join(audio_directory, audio[0])
+    mixer.music.load(audio_path)
+    mixer.music.play()
     st.button("Roll Crates", use_container_width=True, on_click=submit)
 
 def submit():
     st.session_state.calc = False
+
     st.session_state.buttonDis = False
