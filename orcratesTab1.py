@@ -1,8 +1,6 @@
 import streamlit as st
 from cratesData import *
 import pandas as pd
-from os import path
-
 
 def modalContent():
     st.link_button("👑 Visit ORFinishes for Item Checklists! 👑","https://orfinishes.com",use_container_width=True)
@@ -108,4 +106,5 @@ def submit():
     st.session_state.calc = False
 
     st.session_state.buttonDis = False
+
 
